@@ -1,0 +1,299 @@
+body{
+  margin: 0;
+}
+nav {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;;
+  flex-direction: column;
+  text-decoration: 'none';
+  user-select: none ;
+
+}
+
+.nav-primary{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  width: 100%;
+  text-decoration: 'none';
+
+}
+.title-productos{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+.title-page{
+  color:#ddd;
+  font-size:40px;
+  text-decoration: none; 
+  color: inherit;
+
+}
+.cart-icon{
+  color:#ddd;
+  text-decoration: none;
+  list-style: none;
+}
+.logo-page{
+  width: 50px;
+}
+.nav-secondary {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  justify-content: space-around;
+    
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;  
+  justify-content: space-around;
+}
+.menu  li{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.menu li:hover{
+  background-color: #337ab7;
+
+}
+
+
+.link{
+  text-decoration: none; 
+  color: inherit;
+}
+/******** Items List ******/
+
+.items-list {
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+  font-weight: bolder;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+/****** Item  box *********/
+.item-box {
+  background-color: bisque;
+  margin: 10px;
+  padding: 20px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.item-quantity {
+  margin: 0 3rem;
+  background-color: black;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.item-price {
+  color: gray;
+}
+
+.item-add-button {
+  background-color: #5cb85c;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.item-minus-button {
+  background-color: #d9534f;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.item-plus-button {
+  background-color: #337ab7;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/****** Shopping Cart ********/
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.cart-count {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 8px;
+}
+/****** quines somos ********/
+
+.quienes-somos{
+  margin: 2rem;
+  padding:3% 10%;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  
+}
+.subtitle{
+  margin-top: 2rem;
+}
+
+/****** Contacto ********/
+.contacto{
+  margin: 2rem;
+  padding:3% 10%;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.ubicacion{
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem;
+  flex-direction: row;
+  border-style: solid;
+  border-color: white;
+  justify-content: space-around;  
+  border-radius: 10px;
+}
+/****** Footer ********/
+.footer{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  
+}
+.redes{
+  height: 30px;
+}
+
+/****** carrito tabla ********/
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.carrito-vacio{
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: #ddd;
+  background-color: #000;
+  display: flex;
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-style: solid;
+  border-color: green;
+  border-radius: 8px;
+  user-select: none ;
+}
+.comprar {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.table-item{
+  align-items: center;
+  text-align: center;
+}
+
+.precio-total {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.mail {
+  width: 80%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.boton-compra {
+  background-color: hsl(122, 39%, 49%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-compra:hover {
+  background-color: #45a049;
+}
+
+/****** compra realizada ********/
+
+.compra-realizada{
+  margin: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+  font-size: 25px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  height: 180px;
+  border-radius: 15px;
+
+background-color: #5cb85c;
+}
+@media only screen and (max-width: 1000px) {
+  .carrito-vacio{
+    font-size: 2rem; 
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
