@@ -7,7 +7,7 @@ import { ShoppingCart } from "./components/ShoppingCart";
 import { ShoppingCartProvider } from "./contexts/ShoppingCartContext";
 import { Quienes_Somos } from "./components/Quienes_Somos";
 import {Compra} from "./components/Compra";
-import { NavBar } from "./components/Navbar";
+import { NavBar } from "./components/NavBar"
 
 export const App = () => {
   return (
