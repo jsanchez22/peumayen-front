@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../contexts/ShoppingCartContext";
 
-export const Navbar = () => {
+export const NavBar = () => {
   const [cart, setCart] = useContext(CartContext);
 
   const quantity = cart.reduce((acc, curr) => {
